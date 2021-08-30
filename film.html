@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+
+<body>
+    <navbar>
+        <div class="logo" ><img class="wmdblogo" src="./imdblogo.png" alt="wmdblogo"></div>
+        <div class="search"><input type="search" name="search" id="searcher" placeholder = "Search movie"></div>
+        
+    </navbar>
+    <radiobar>
+        <div class="radio-group">
+
+            <label for="All Movies">All movies</label>
+            <input type="radio" name="choice" id="all-movies" value="allmovies" checked="checked">
+
+            <label for="Newest releases">New releases</label>
+            <input type="radio" name="choice" id="new-release" value="newreleases">
+
+            <label for="avengers">Avengers</label>
+            <input type="radio" name="choice" id="avengers" value="avengers">
+
+            <label for="x-men">X-men</label>
+            <input type="radio" name="choice" id="x-men" value="x-men">
+
+            <label for="princess">Princess</label>
+            <input type="radio" name="choice" id="princess" value="princess">
+
+            <label for="batman">Batman</label>
+            <input type="radio" name="choice" id="batman" value="batman">
+        </div>
+    </radiobar>
+    <section id="movie-cards">
+        <div id="movie-card">
+           
+        </div>
+        
+    </section>
+
+<div class="footer">
+    @Erico_Stuurman 2021
+</div>
+
+
+    <script defer src="data.js"></script> 
+    <script defer src="script.js"></script>
+</body>
+
+</html>
